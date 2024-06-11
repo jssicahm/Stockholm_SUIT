@@ -83,6 +83,10 @@ body{
     max-width: 3.75rem;
 }
 
+.Header-img{
+    object-fit: cover;
+}
+
 .Nav{
     font-size: .75rem;
     font-weight: 600;
