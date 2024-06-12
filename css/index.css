@@ -44,11 +44,30 @@ p , strong , em , mark , a{
     font-size: 100%;
 }
 
+/* FONT FAMILY */
+
+@font-face {
+    font-family: 'Open Sans Regular';
+    src: url('../fonts/open-sans-v40-latin/open-sans-v40-latin-regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Open Sans 600';
+    src: url('../fonts/open-sans-v40-latin/open-sans-v40-latin-600.woff2') format('woff2');
+    font-weight: 600;
+    font-style: normal;
+}
+
+/* BODY */
+
 body{
-    font-family: "Open Sans", sans-serif;
+    font-family: "Open Sans Regular", sans-serif;
     position: relative;
 }
 
+/* UTILIDADES */
 
 .u-positionRelative{
     position: relative;
@@ -89,7 +108,7 @@ body{
 
 .Nav{
     font-size: .75rem;
-    font-weight: 600;
+    font-family: 'Open Sans 600';
 }
 
 .Header-a--menu{
