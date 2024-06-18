@@ -98,21 +98,18 @@ body{
     z-index: 2;
 }
 
-.Header-h1{
-    max-width: 3.75rem;
-}
-
-.Header-img{
-    object-fit: cover;
-}
-
 .Nav{
-    font-size: .75rem;
+    font-size: 1rem;
     font-family: 'Open Sans 600';
 }
 
 .Header-a--menu{
     display: none;
+}
+
+.Header-svg{
+    width: 1.5rem;
+    height: 1.5rem;
 }
 
 .Nav-ul{
